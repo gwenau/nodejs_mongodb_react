@@ -1,0 +1,27 @@
+{
+  "name": "nodejs_mongodb_react",
+  "version": "1.0.0",
+  "description": "Example code",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gwenau/nodejs_mongodb_react.git"
+  },
+  "keywords": [
+    "Node.js",
+    "MongoDB",
+    "React"
+  ],
+  "author": "Gwen Au",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gwenau/nodejs_mongodb_react/issues"
+  },
+  "homepage": "https://github.com/gwenau/nodejs_mongodb_react#readme",
+  "dependencies": {
+    "hapi": "^17.2.1"
+  }
+}
