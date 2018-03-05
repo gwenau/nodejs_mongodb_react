@@ -18,6 +18,14 @@ server.route({
     }
 });
 
+server.route({
+    method: 'GET',
+    path: '/{name}',
+    handler: function (request, reply) {  
+        return('Hello, ' + encodeURIComponent(request.params.name) + '!');
+    }
+});
+
 // Start the server
 async function start() {
 
