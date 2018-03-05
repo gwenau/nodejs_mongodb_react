@@ -19,9 +19,13 @@ const provision = async () => {
 
     server.route({
         method: 'GET',
-        path: '/{path*}',
+        path: '/{param*}',
         handler: {
-            file: 'hello.html'
+            directory: {
+                path: '.',
+                redirectToSlash: true,
+                index: true,
+            }
         }
     });
 
