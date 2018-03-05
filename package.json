@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/gwenau/nodejs_mongodb_react#readme",
   "dependencies": {
-    "hapi": "^17.2.1"
+    "hapi": "^17.2.1",
+    "inert": "^5.1.0"
   }
 }

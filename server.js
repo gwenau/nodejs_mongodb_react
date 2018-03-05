@@ -21,7 +21,7 @@ server.route({
 server.route({
     method: 'GET',
     path: '/{name}',
-    handler: function (request, reply) {  
+    handler: function (request) {  
         return('Hello, ' + encodeURIComponent(request.params.name) + '!');
     }
 });
