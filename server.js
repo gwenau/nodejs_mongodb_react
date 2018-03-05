@@ -3,8 +3,10 @@
 const Path = require('path');
 const Hapi = require('hapi');
 const Inert = require('inert');
+const Boom = require('boom');
 
 const server = new Hapi.Server({
+    host: 'localhost',
     port: 3000,
     routes: {
         files: {
